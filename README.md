@@ -1,19 +1,13 @@
-> 提醒： 滥用可能导致账户被BAN！！！   
+welcome
   
-* 使用v2ray+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议  
-* 支持tor网络，且可通过自定义网络配置文件启动v2ray和caddy来按需配置各种功能  
-* 支持存储自定义文件,目录及账号密码均为AUUID,客户端务必使用TLS连接  
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/tazcxyz/vray3s)  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/jvjc22/j3s)  
   
 ### 服务端at
   * 点击Manage App可在Settings下的Config Vars项**查看和重新设置参数**  
   * 点击Open app跳转[欢迎页面](/etc/CADDYIndexPage.md)域名即为heroku分配域名，格式为`appname.herokuapp.com`，用于客户端  
   * 默认协议密码为$UUID，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
   
-### 客户端
-* **务必替换所有的appname.herokuapp.com为heroku分配的项目域名**  
-* **务必替换所有的8f91b6a0-e8ee-11ea-adc1-0242ac120002为部署时设置的AUUID**  
+
   
 <details>
 <summary>v2ray</summary>
